@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "The license text"
+echo -n "Do you agree to this license? (Y/N): "
+
+read agree
+
+if [ "$agree" != "Y" ] && [ "$agree" != "y" ]
+then
+    echo "License declined.  Aborting installation."
+    exit 1
+fi

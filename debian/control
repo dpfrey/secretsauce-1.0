@@ -1,0 +1,14 @@
+Source: secretsauce
+Maintainer: Serious Company <packages@seriouscompany.com>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: secretsauce
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: The best and most proprietary sauce
+ This packages contains the super secret sauce provided by Serious Company.
+ You must agree to oppressive licensing restrictions to complete the
+ installation of this package.
